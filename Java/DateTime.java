@@ -26,8 +26,8 @@ class DateTime {
         Calendar sched = Calendar.getInstance();
         sched.set(Calendar.MONTH,month-1);
         sched.set(Calendar.DAY_OF_MONTH,day);
-        sched.set(Calendar.YEAR,year);
-String d = sched.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.US).toUpperCase();
+        //sched.set(Calendar.YEAR,year);
+//String d = sched.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.US).toUpperCase();
         return d;
 }
 }
